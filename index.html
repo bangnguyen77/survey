@@ -9,13 +9,63 @@
     <title>Survey</title>
   </head>
   <body>
-    <h1>Survey</h1>
     <div class="container">
+      <h1 class="text-center">Survey</h1>
       <form id="survey">
         <div class="form-group">
           <label for="name">Please enter your name:</label>
-          <input id="name" class="form-control" type="text">  
+          <input id="name" class="form-control" type="text">
         </div>
+        <div class="form-group">
+          <label for="color">What's your favorite color?</label>
+          <input id="color" class="form-control" type="color">
+        </div>
+        <div class="form-group">
+          <label for="food">What are your three favorite foods?</label>
+          <input id="food1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <input id="food2" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <input id="food3" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="birthday">What is your birthday?</label>
+          <input id="birthday" class="form-control" type="date">
+        </div>
+
+        <label for="radio">Do you prefer coffee, tea, or neither?</label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="beverage" value="coffee">
+            Coffee
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="beverage" value="tea">
+            Tea
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="beverage" value="neither">
+            Neither
+          </label>
+        </div>
+
+        <label for="lang">Which of these categories do you prefer?</label>
+        <select class="form-control" id="lang">
+          <option>HTML</option>
+          <option>CSS</option>
+          <option>JavaScript</option>
+        </select>
+
+        <button type="submit" class="btn btn-success">Submit your answers</button>
+
 
       </form>
 
