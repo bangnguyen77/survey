@@ -20,9 +20,13 @@ $(document).ready(function() {
     $(".birthday").text(birthdayInput);
     $(".beverage").text(beverageInput);
     $(".lang").text(langInput);
-    $(".color").css({
+    // $(".color").css({
+    //     "background-color" : colorInput
+    // });
+    $(".colorButton").css({
         "background-color" : colorInput
     });
+
 
 
 
